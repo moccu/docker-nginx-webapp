@@ -1,3 +1,3 @@
-if ($prefered_scheme != $scheme) {
+if ($prefered_scheme != $real_scheme) {
     return 301 $prefered_scheme://$host$request_uri;
 }
