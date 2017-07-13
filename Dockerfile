@@ -1,4 +1,4 @@
-FROM nginx:1.11-alpine
+FROM nginx:1.13-alpine
 
 LABEL com.moccu.type="webapp"
 
