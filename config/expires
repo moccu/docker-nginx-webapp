@@ -4,6 +4,7 @@ map $sent_http_content_type $expires {
     ~text/                        1h;
     application/manifest+json     1h;
     ~image/                       365d;
+    ~video/                       365d;
     ~font/                        365d;
     text/css                      365d;
     application/x-javascript      365d;
